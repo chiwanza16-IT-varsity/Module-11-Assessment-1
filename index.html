@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery Plus</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark px-5">
+            <a href="#" class="navbar-brand">Image Gallery Plus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link">Home</a>
+                    <a href="#" class="nav-item nav-link">About</a>
+                    <a href="#" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselImg" class="carousel slide"  data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselImg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselImg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselImg" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/house.jpg" class="d-block w-100">
+                    
+                    <div class="carousel-caption">
+                        <h5>House</h5>
+                        <p>A secluded cabin, surrounded by towering trees, whispers secrets of the forest.
+                        </p>  
+                             
+                    </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/leaves.jpg" class="d-block w-100">
+
+                <div class="carousel-caption">
+                  <h5>Autumn leaves</h5>
+                  <p>Golden leaves descend, painting the earth in warm hues, as autumn whispers change.
+                  </p>  
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/tulips.jpg" class="d-block w-100">
+
+                <div class="carousel-caption">
+                  <h5>Tulips</h5>
+                  <p>Tulips bloom brightly, their vibrant petals heralding the joyful return of spring.
+                  </p>  
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="container team">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="images/thandi.jpg" class="img-thumbnail rounded-circle" width="160">
+              <h2>Thandi Khumalo</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consequuntur corrupti sed non provident excepturi.</p>
+              <p><a href="#" class="btn btn-secondary" role="button">View details</a></p>
+            </div>
+
+            <div class="col-lg-4">
+              <img src="images/john.jpg" class="img-thumbnail rounded-circle" width="160">
+              <h2>John Smith</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consequuntur corrupti sed non provident excepturi.</p>
+              <p><a href="#" class="btn btn-secondary" role="button">View details</a></p>
+            </div>
+
+            <div class="col-lg-4">
+              <img src="images/sally.jpg" class="img-thumbnail rounded-circle" width="160">
+              <h2>Sally Ven Beek</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consequuntur corrupti sed non provident excepturi.</p>
+              <p><a href="#" class="btn btn-secondary" role="button">View details</a></p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="section-divider">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <h2 class="feature-heading">First featured item. <span class="text-muted">It'll blow your mind</span></h2>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo minus corrupti quia officia at.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="images/asian-house.jpg" class="bd-placeholder-img bg-placeholder-img-lg img-fluid mx-auto">
+            </div>
+          </div>
+
+          <hr class="section-divider">
+
+          <div class="row">
+            <div class="col-md-7 order-md-2">
+              <h2 class="feature-heading">Second featured item. <span class="text-muted">It'll blow your mind</span></h2>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo minus corrupti quia officia at.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img src="images/woman.jpg" class="bd-placeholder-img bg-placeholder-img-lg img-fluid mx-auto">
+            </div>
+          </div>
+
+          <hr class="section-divider">
+
+          <div class="row">
+            <div class="col-md-7">
+              <h2 class="feature-heading">Third featured item. <span class="text-muted">It'll blow your mind</span></h2>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo minus corrupti quia officia at.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="images/boat.jpg" class="bd-placeholder-img bg-placeholder-img-lg img-fluid mx-auto">
+            </div>
+          </div>
+        </div>
+
+        <hr class="section-divider">
+
+        <footer class="container footer-section">
+          <p class="float-right"><a href="#">Back to top</a></p>
+          <p>&copy; 2024 Company, Inc &middot; <a href="#">Privacy</a>&middot; <a href="#">Terms</a></p>
+
+        </footer>
+    </main>
+   
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
